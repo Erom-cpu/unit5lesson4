@@ -11,6 +11,6 @@ df = df.iloc[0:-2]
 
 df = df[['Year','Pop.']].astype('int')
 print(df)
-df.plot('Year.', y = 'Pop.', kind = 'bar')
+df.plot('Year', y = 'Pop.', kind = 'bar')
 plt.show()
 print(df.info())
